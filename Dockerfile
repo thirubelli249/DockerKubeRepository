@@ -5,4 +5,4 @@ RUN mkdir hello
 WORKDIR hello
 COPY myapp .
 # entire directory content copy to hello folder
-ESPOSE 8080
+EXPOSE 8080
